@@ -79,9 +79,6 @@ const App = ({ isServerInfo }) => {
             <Route path="/">
               <Redirect to="/nftBalance" />
             </Route>
-            <Route path="/ethereum-boilerplate">
-              <Redirect to="/nftBalance" />
-            </Route>
             <Route path="/nonauthenticated">
               <>Please login using the "Authenticate" button</>
             </Route>
